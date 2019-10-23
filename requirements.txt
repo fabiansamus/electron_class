@@ -1,0 +1,5 @@
+npm install electron
+npm install 
+
+git config --local credential.helper ""
+for when the machine have the git global setup

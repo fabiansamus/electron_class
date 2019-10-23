@@ -1,0 +1,24 @@
+class Car{
+  constructor(options){
+    this.wheels = options.wheels;
+  	this.type = 'car';
+  }
+	drive(){
+  	return 'Im Driving';
+  };
+}
+
+class Honda extends Car {
+	constructor(options){
+    super(options);
+    
+  	this.model = options.model;
+  }
+}
+
+
+const accord = new Honda({model:'acord',wheels:4});
+
+
+accord.model;
+accord.wheels;
